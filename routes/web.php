@@ -34,3 +34,8 @@ $router->group(['prefix' => 'api'], function () use ($router) {
         'as' => 'stations.show', 'uses' => 'WebAPIController@show'
     ]);
 });
+
+// routing requests to Vue
+$router->get('/{route:.*}/', function ()  {
+    return view('app');
+});
