@@ -1,0 +1,19 @@
+#app {
+    padding: 35px;
+    margin-top: 10px;
+}
+
+img.img-thumbnail {
+    max-width: 300px;
+    margin: auto;
+}
+
+button.btn {
+    margin: 10px;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
